@@ -1,28 +1,77 @@
 @import './normalize.css';
+:root {
+    --navy: #1a2e47;
+    --biege: #f5f3ed;
+}
+
+a, a:visited {
+    color: var(--navy);
+    transition: all 200ms;
+    text-decoration: none;
+}
+
+a:hover, a:hover:visited {
+    text-decoration: underline;
+}
 
 footer {
-    background: #f5f3ed;
+    background: var(--biege);
     position: absolute;
     width: 100%;
     height: 5em;
     bottom: 0;
     display: grid;
     grid-template-columns: repeat(3, 100px);
+    place-items: center;
+    place-content: center;
 }
 
-footer img {
-    width: 48px;
+main {
+    margin: 10vh 10vw;
+}
+
+.footer-icon {
+    width: 32px;
+}
+
+#nav-mobile .link:hover, .current-page {
+    background: var(--biege);
+    color: var(--navy);
+}
+
+#nav-mobile .link {
+    padding: 2em;
+    display: block;
+    color: var(--biege);
+}
+
+#nav-full {
+    margin: 1em;
+    display: grid;
+    grid-template-columns: [Logo] 1fr repeat(3, 6em);
+    align-items: center;
+}
+
+#nav-mobile {
+    display: grid;
+}
+
+#nav-mobile ul {
+    z-index: 999;
+    width: 30%;
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding-inline: 0;
+    height: 100%;
+    background-color: var(--navy);
 }
 
 @media screen and (min-width: 768px) {
-    #logo {
+    .logo {
         width: 19rem;
-    }
-    #nav-full {
-        margin: 1em;
-        display: grid;
-        grid-template-columns: [Logo] 1fr repeat(3, 6em);
-        align-items: center;
     }
     #nav-mobile {
         display: none;
@@ -30,6 +79,10 @@ footer img {
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+    .logo {
+        place-self: center;
+        width: 10rem;
+    }
     #nav-full {
         display: none;
     }
