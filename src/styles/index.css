@@ -1,0 +1,36 @@
+@import './normalize.css';
+
+footer {
+    background: #f5f3ed;
+    position: absolute;
+    width: 100%;
+    height: 5em;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+}
+
+footer img {
+    width: 48px;
+}
+
+@media screen and (min-width: 768px) {
+    #logo {
+        width: 19rem;
+    }
+    #nav-full {
+        margin: 1em;
+        display: grid;
+        grid-template-columns: [Logo] 1fr repeat(3, 6em);
+        align-items: center;
+    }
+    #nav-mobile {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    #nav-full {
+        display: none;
+    }
+}
