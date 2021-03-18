@@ -1,7 +1,14 @@
 import { Link } from 'react-router-dom';
 import logoImg from '../logo_wordmark.svg';
-function Navigation(props) {
+import { useState } from 'react';
 
+function Navigation(props) {
+    //TODO This is a neat feature about making the current page selected
+    // const [currentPage, setCurrentPage] = useState();
+
+    // const handleClick = (e) => {
+    //     const { target } = e;
+    // }
     const about = <Link className="link" to="./about">About</Link>
     const resume = <Link className="link" to="./resume">Resume</Link>
     const projects = <Link className="link" to="./projects">Projects</Link>

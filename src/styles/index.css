@@ -1,21 +1,25 @@
 @import './normalize.css';
+@font-face {
+    font-family: Raleway, sans-serif;
+    src: url(./Raleway-VariableFont_wght.ttf);
+}
+
 :root {
     --navy: #1a2e47;
     --biege: #f5f3ed;
 }
 
-a, a:visited {
-    color: var(--navy);
-    transition: all 200ms;
-    text-decoration: none;
+body {
+    font-family: Raleway;
 }
 
-a:hover, a:hover:visited {
-    text-decoration: underline;
+a, a:visited {
+    color: var(--navy);
+    text-decoration: none;
+    user-select: none;
 }
 
 footer {
-    background: var(--biege);
     position: absolute;
     width: 100%;
     height: 5em;
@@ -34,7 +38,49 @@ main {
     width: 32px;
 }
 
-#nav-mobile .link:hover, .current-page {
+#nav-full, footer {
+    background: var(--biege);
+}
+
+#nav-full {
+    display: grid;
+    grid-template-columns: [Logo] 1fr repeat(3, 7em);
+    column-gap: 1em;
+    align-items: center;
+    padding: 1em;
+}
+
+#nav-full .link {
+    font-size: 1.3em;
+    padding: 1em 0;
+    text-align: center;
+    position: relative;
+}
+
+/* #nav-full .link:hover, #nav-full .current-page {
+    background: var(--navy);
+    color: var(--biege);
+} */
+
+a, #nav-full .link:after {
+    transition: all 200ms;
+}
+
+#nav-full .link:after {
+    content: '';
+    background-color: var(--navy);
+    height: .2em;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#nav-full .link:hover:after, #nav-full .current-page {
+    width: 100%;
+}
+
+#nav-mobile .link:hover, #nav-mobile .current-page {
     background: var(--biege);
     color: var(--navy);
 }
@@ -43,13 +89,6 @@ main {
     padding: 2em;
     display: block;
     color: var(--biege);
-}
-
-#nav-full {
-    margin: 1em;
-    display: grid;
-    grid-template-columns: [Logo] 1fr repeat(3, 6em);
-    align-items: center;
 }
 
 #nav-mobile {
@@ -71,7 +110,7 @@ main {
 
 @media screen and (min-width: 768px) {
     .logo {
-        width: 19rem;
+        width: 15rem;
     }
     #nav-mobile {
         display: none;
