@@ -11,6 +11,15 @@
 
 body {
     font-family: Raleway;
+    background-color: var(--biege);
+}
+
+main {
+    background-color: #fff;
+}
+
+a, p {
+    font-weight: 500;
 }
 
 a, a:visited {
@@ -20,33 +29,54 @@ a, a:visited {
 }
 
 footer {
-    width: 100%;
-    height: 5em;
+    margin: 2em 0;
     display: grid;
     grid-template-columns: repeat(3, 100px);
     place-items: center;
     place-content: center;
 }
 
-.footer-icon {
-    width: 32px;
+article[name=Resume] h2 {
+    font-weight: normal;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+article[name=Resume] ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+article[name=Resume] p {
+    margin: 0 0 1em;
+}
+
+.copyright {
+    grid-column: auto / span 3;
 }
 
 .container {
-    border: 5px solid var(--navy);
+    border: 2px solid var(--navy);
     width: 80%;
 }
 
 /*TODO: Fix the border radius issue. Look up how to make image fit parent container?*/
+
 .container img {
     width: 100%;
 }
+
 .container img, .container {
     border-radius: 1em;
 }
 
-.container.paragraph {
-    padding: 1em;
+.footer-icon {
+    width: 32px;
+}
+
+.grid {
+    display: grid;
+    place-items: start center;
 }
 
 .logo {
@@ -54,7 +84,16 @@ footer {
     background-repeat: no-repeat;
     background-size: 100%;
 }
-#nav-full, footer {
+
+.shadow {
+    box-shadow: 0 .5em 1em gray;
+}
+
+section.container, article.container {
+    padding: 1em;
+}
+
+#nav-full {
     background: var(--biege);
 }
 
@@ -75,11 +114,6 @@ footer {
     text-align: center;
     position: relative;
 }
-
-/* #nav-full .link:hover, #nav-full .current-page {
-    background: var(--navy);
-    color: var(--biege);
-} */
 
 a, #nav-full .link:after {
     transition: all 200ms;
@@ -112,26 +146,58 @@ a, #nav-full .link:after {
 
 #nav-mobile {
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: sticky;
+    top: 0;
+    background: var(--biege);
 }
 
-#nav-mobile ul {
+#mobile-menu {
     z-index: 999;
     width: 30%;
     list-style-type: none;
     position: absolute;
     top: 0;
-    right: 0;
+    right: -30%;
     margin: 0;
     padding-inline: 0;
-    height: 100%;
+    height: 100vh;
     background-color: var(--navy);
 }
 
+#mobile-menu.active {
+    right: 0;
+}
+
+#mobile-nav-btn {
+    background: var(--navy);
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    place-self: center;
+    position: relative;
+    right: -2em;
+    transform: rotate(0);
+}
+
+#mobile-nav-btn.active {
+    transform: rotate(90deg);
+    right: 4em;
+}
+
+#mobile-nav-btn img {
+    position: relative;
+    top: 5px;
+}
+
+#mobile-nav-btn, #mobile-menu {
+    transition: all 300ms;
+}
+
 @media screen and (min-width: 768px) {
-    main {
-        display: grid;
+    .grid {
         grid-template-columns: repeat(2, 1fr);
-        margin: 10vh 10vw;
+        padding: 10vh 10vw;
     }
     .logo {
         width: 11em;
@@ -143,11 +209,16 @@ a, #nav-full .link:after {
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-    main {
-        margin: 5vh 5vw;
+    .grid {
+        grid-template-columns: 1fr;
+        padding: 5vh 5vw;
+        row-gap: 2em;
     }
     .logo {
-        place-self: center;
+        position: relative;
+        top: .75em;
+        left: 2em;
+        height: 5rem;
         width: 10rem;
     }
     #nav-full {

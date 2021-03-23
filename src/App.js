@@ -11,7 +11,6 @@ function App() {
 		<>
 			<Router>
 				<Navigation />
-				<main>
 					<Switch>
 						<Route exact path="/">
 							<Redirect to="/about" />
@@ -26,7 +25,6 @@ function App() {
 							<Resume />
 						</Route>
 					</Switch>
-				</main>
 				<Footer />
 			</Router>
 		</>

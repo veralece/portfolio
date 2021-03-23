@@ -1,5 +1,6 @@
+import React, { useState } from "react";
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import chevron from '../images/chevron-white.png'
 
 function Navigation(props) {
     //TODO This is a neat feature about making the current page selected
@@ -8,10 +9,18 @@ function Navigation(props) {
     // const handleClick = (e) => {
     //     const { target } = e;
     // }
-    const about = <Link className="link" to="./about">About</Link>
-    const resume = <Link className="link" to="./resume">Resume</Link>
-    const projects = <Link className="link" to="./projects">Projects</Link>
-    const logo = <Link to="./about" ><div className="logo"></div></Link>
+    const about = <Link className="link" onClick={handleMobileMenuClick} to="./about">About</Link>
+    const resume = <Link className="link" onClick={handleMobileMenuClick} to="./resume">Resume</Link>
+    const projects = <Link className="link" onClick={handleMobileMenuClick} to="./projects">Projects</Link>
+    const logo = <Link to="./about" className="logo" onClick={handleMobileMenuClick}><div></div></Link>
+
+    const [displayMobileMenu, setDisplayMobileMenu] = useState(false);
+
+    function handleMobileMenuClick(e) {
+        e ? setDisplayMobileMenu(e.target.checked) : setDisplayMobileMenu(false);
+        document.getElementById('mobile-menu').classList.toggle('active');
+        document.getElementById('mobile-nav-btn').classList.toggle('active');
+    }
     return (
         <>
             <nav id="nav-full">
@@ -22,11 +31,22 @@ function Navigation(props) {
             </nav>
             <nav id="nav-mobile">
                 {logo}
-                <ul>
+                <label id="mobile-nav-btn" htmlFor="nav-chkbox">
+                    <img alt="" src={chevron} />
+                    <input
+                        style={{ display: 'none' }}
+                        id="nav-chkbox"
+                        type="checkbox"
+                        onChange={handleMobileMenuClick}
+                        value={displayMobileMenu}
+                    />
+                </label>
+                <ul id="mobile-menu">
                     <li>{about}</li>
                     <li>{resume}</li>
                     <li>{projects}</li>
                 </ul>
+
             </nav>
         </>
     );
