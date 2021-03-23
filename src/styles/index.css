@@ -1,6 +1,6 @@
 @import './normalize.css';
 @font-face {
-    font-family: Raleway, sans-serif;
+    font-family: Raleway;
     src: url(./Raleway-VariableFont_wght.ttf);
 }
 
@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: Raleway;
+    font-family: Raleway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--biege);
 }
 
@@ -151,35 +151,37 @@ a, #nav-full .link:after {
 }
 
 #mobile-menu {
-    z-index: 999;
-    width: 12em;
+    z-index: 99;
     list-style-type: none;
     position: absolute;
-    right: -15em;
+    width: 100%;
+    top: -50vh;
     margin: 0;
-    padding-inline: 0;
-    height: 100vh;
+    padding-inline-start: 0;
     background-color: var(--navy);
 }
 
 #mobile-menu.active {
-    right: 0;
+    top: 0;
+}
+
+#mobile-nav-btn.active {
+    top: 14.5rem;
+    transform: rotate(180deg);
 }
 
 #mobile-nav-btn {
     background: var(--navy);
     height: 64px;
     width: 64px;
+    top: 5vh;
+    left: 3em;
     border-radius: 50%;
     place-self: center;
     position: relative;
-    right: -2em;
     transform: rotate(0);
-}
-
-#mobile-nav-btn.active {
-    transform: rotate(90deg);
-    right: 10em;
+    z-index: 100;
+    box-shadow: 0 0 10px white;
 }
 
 #mobile-nav-btn img {
@@ -188,7 +190,7 @@ a, #nav-full .link:after {
 }
 
 #mobile-nav-btn, #mobile-menu {
-    transition: right 300ms;
+    transition: top 250ms;
 }
 
 @media screen and (min-width: 768px) {
