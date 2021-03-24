@@ -10,9 +10,11 @@
             "route": "/projects"
         }
     ],
-    "responseOverrides": {
-        "404": {
-            "rewrite": "/about"
-        }
+    "navigationFallback": {
+        "rewrite": "/index.html",
+        "exclude": [
+            "/images/*.{png,jpg,gif}",
+            "/css/*"
+        ]
     }
 }
