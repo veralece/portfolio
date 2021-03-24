@@ -51,6 +51,14 @@ article[name=Resume] p {
     margin: 0 0 1em;
 }
 
+article[name=Projects] h2, article[name=Projects] h2 a {
+    font-weight: 600;
+}
+
+article[name=Projects] a {
+    text-decoration: underline;
+}
+
 .copyright {
     grid-column: auto / span 3;
 }
@@ -74,6 +82,7 @@ article[name=Resume] p {
 
 .grid {
     display: grid;
+    row-gap: 2em;
     place-items: start center;
 }
 
@@ -85,6 +94,14 @@ article[name=Resume] p {
 
 .shadow {
     box-shadow: 0 .5em 1em gray;
+}
+
+.work-listitem li {
+    list-style-type: disc;
+}
+
+.work-listitem ul {
+    margin: 0 1em 1em;
 }
 
 section.container, article.container {
@@ -194,6 +211,9 @@ a, #nav-full .link:after {
 }
 
 @media screen and (min-width: 768px) {
+    article[name=Projects] h1 {
+        grid-column: span 2;
+    }
     .grid {
         grid-template-columns: repeat(2, 1fr);
         padding: 10vh 10vw;
@@ -211,7 +231,6 @@ a, #nav-full .link:after {
     .grid {
         grid-template-columns: 1fr;
         padding: 5vh 5vw;
-        row-gap: 2em;
     }
     .logo {
         position: relative;

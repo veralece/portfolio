@@ -4,9 +4,9 @@ import linkedin from '../images/linkedin.svg';
 function Footer(props) {
     return (
         <footer>
-            <a href="https://www.twitter.com"><img className="footer-icon" src={twitter} alt="twitter icon" /></a>
+            <a href="https://twitter.com/javy_script"><img className="footer-icon" src={twitter} alt="twitter icon" /></a>
             <a href="mailto:javier.mejia.penaloza@gmail.com"><img className="footer-icon" src={email} alt="email icon" /></a>
-            <a href="https://www.linkedin.com"><img className="footer-icon" src={linkedin} alt="linkedin icon" /></a>
+            <a href="https://www.linkedin.com/in/javier-penaloza-14ab48181/"><img className="footer-icon" src={linkedin} alt="linkedin icon" /></a>
             <p className="copyright">Copyright &copy;2021</p>
         </footer>)
 }
