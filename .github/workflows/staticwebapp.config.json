@@ -1,17 +1,6 @@
 {
-    "routes": [
-        {
-            "route": "/about"
-        },
-        {
-            "route": "/resume"
-        },
-        {
-            "route": "/projects"
-        }
-    ],
     "navigationFallback": {
-        "rewrite": "/index.html",
+        "rewrite": "/",
         "exclude": [
             "/images/*.{png,jpg,gif}",
             "/css/*"
