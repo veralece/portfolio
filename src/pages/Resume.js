@@ -28,9 +28,9 @@ function Resume(props) {
             jobTitle: "Programmer Analyst Assistant",
             organization: "City of Tempe",
             duties: [
-                "Overseeing maintenance of 40+ applications varying from small to large",
-                "Debugging code in legacy applications",
-                "Writing detailed documentation for the smaller, older applications"
+                "Maintaining several applications varying from small to large",
+                "Debugging applications",
+                "Writing detailed documentation"
             ]
         },
         {
