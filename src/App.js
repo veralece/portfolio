@@ -11,20 +11,20 @@ function App() {
 		<>
 			<Router>
 				<Navigation />
-					<Switch>
-						<Route exact path="/">
-							<Redirect to="/about" />
-						</Route>
-						<Route path="/about">
-							<About />
-						</Route>
-						<Route path="/projects">
-							<Projects />
-						</Route>
-						<Route path="/resume">
-							<Resume />
-						</Route>
-					</Switch>
+				<Switch>
+					<Route path="/about">
+						<About />
+					</Route>
+					<Route path="/projects">
+						<Projects />
+					</Route>
+					<Route path="/resume">
+						<Resume />
+					</Route>
+					<Route path="/">
+						<Redirect to="/about" />
+					</Route>
+				</Switch>
 				<Footer />
 			</Router>
 		</>
