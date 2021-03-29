@@ -73,7 +73,7 @@ article[name=Projects] a {
 
 .container {
     border: 2px solid var(--navy);
-    width: 80%;
+    width: 95%;
 }
 
 .container img {
@@ -226,7 +226,8 @@ a, #nav-full .link:after {
     }
     .grid {
         grid-template-columns: repeat(2, 1fr);
-        padding: 10vh 10vw;
+        column-gap: 2em;
+        padding: 5vh 5vw;
     }
     .logo {
         width: 11em;
