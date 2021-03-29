@@ -78,6 +78,8 @@ article[name=Projects] a {
 
 .container img {
     width: 100%;
+    border: solid 1px black;
+    margin: 1em 0;
 }
 
 .container img, .container {

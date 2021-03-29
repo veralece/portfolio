@@ -1,30 +1,30 @@
 {
     "experience": [
         {
-    "date": "Janurary 2021 - Currently",
-    "jobTitle": "Programmer Analyst Assistant",
-    "organization": "City of Tempe",
-    "duties": [
+            "date": "Janurary 2021 - Currently",
+            "jobTitle": "Programmer Analyst Assistant",
+            "organization": "City of Tempe",
+            "duties": [
                 "Maintaining several applications varying from small to large",
                 "Debugging applications",
                 "Writing detailed documentation"
             ]
         },
         {
-    "date": "October 2019 - Janurary 2021",
-    "jobTitle": "Service Desk Technician II",
-    "organization": "Arizona Western College",
-    "duties": [
+            "date": "October 2019 - Janurary 2021",
+            "jobTitle": "Service Desk Technician II",
+            "organization": "Arizona Western College",
+            "duties": [
                 "Scripting and automation through PowerShell",
                 "Configuration of Internal Web Applications",
                 "Deploying/managing ITSM System"
             ]
         },
         {
-    "date": "Janurary 2017 - October 2019",
-    "jobTitle": "Service Desk Technician I",
-    "organization": "Arizona Western College",
-    "duties": [
+            "date": "Janurary 2017 - October 2019",
+            "jobTitle": "Service Desk Technician I",
+            "organization": "Arizona Western College",
+            "duties": [
                 "Utilizing Microsoft 365 applications to enhance business processes of operational staff",
                 "End-user support",
                 "Deploying Windows images"
