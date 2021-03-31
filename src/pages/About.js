@@ -1,6 +1,7 @@
 import photo from '../images/javierpenaloza.jpg';
 function About(props) {
     const text = <section className="container shadow">
+        <h1>About Me</h1>
         <p>Hello, you can call me Javi. I’m an Arizona native
         who aspires to be involved in mental health or
         animals, hopefully in the capacity as a full-stack
