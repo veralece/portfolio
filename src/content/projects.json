@@ -19,15 +19,6 @@
             "imgs": "js"
         },
         {
-            "projectTitle": "Onboarding Project",
-            "problem": "New employees often started work without much to run with (such as IT equipment, keys, etc.), which led to their supervisor/staff scrambling to get the new hire everything they needed. Objective was to organize information and processes to ensure new hires hit the ground running.",
-            "approach": "Met with stakeholders to gather goals & requirements. Then met with secondary stakeholders to understand operational processes. As features were completed, I met with stakeholders to get feedback and adjust as necessary.",
-            "solution": "Create an app that will facilitate the request process for supervisors/staff. They will use the app to make requests for items such as IT equipment, furniture, and keys. Once The user submits the requirements, the app will send emails to the necessary departments utilizing an email template the department created.",
-            "results": "Colleagues and staff were pleased to find that they no longer had to recall requirements for their new hires because the app laid it out for them. App was later revisited with new features and UI, which increased the usability of the app. Unfortunately, since this belongs to an old employer, I can't show the results.",
-            "url": "",
-            "imgs": ""
-        },
-        {
             "projectTitle": "Restaurant Website",
             "problem": "Local business owner did not have a website for their restaurant.",
             "approach": "Met with business owner to gather requirements, goals, and learn the history of the restaurant, primarily for the “About us” section. Then studied other restaurant sites to derive inspiration and note pitfalls to avoid. Created wireframes to go over the layout of the site and started plotting content for the main pages.",
