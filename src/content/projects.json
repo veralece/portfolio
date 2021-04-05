@@ -28,15 +28,6 @@
             "imgs": "res"
         },
         {
-            "projectTitle": "Zero Balance Calculator",
-            "problem": "Budgeting normally comes in the form of spreadsheets, but I wanted to create an app that makes it easy to add/remove income, expenses, and funds without having to manually adjust cells on a spreadsheet.",
-            "approach": "Looked at a typical Zero Balance budget sheet and broken it down into its smallest functional unit, then designed a top-down layout that a user would be able to follow.",
-            "solution": "An application that accepts input for financial items (e.g. an expense or income) and calculates the balances for each category and the final balance.",
-            "results": "Peers were happy to find the site intuitive and helpful since many of them were students with financial struggles.",
-            "url": "https://www.public.asu.edu/~jppenalo/zerobalancejq/index.html",
-            "imgs": "zero"
-        },
-        {
             "projectTitle": "Portfolio Site",
             "problem": "I needed a portfolio site to inform others about who I am, and showcase my projects and my resume.",
             "approach": "I initially created a document outlining the content I wanted to display. Afterwards, I digitally sketched what the website would look like on mobile and desktop, which sort of doubled up as a sketch and a wireframe. Then I created mockups of the site utilizing the content in the document I mentioned earlier.",
@@ -44,6 +35,15 @@
             "results": "You're on the site now! You tell me!",
             "url": "https://github.com/veralece/portfolio",
             "imgs": ""
+        },
+        {
+            "projectTitle": "Zero Balance Calculator",
+            "problem": "Budgeting normally comes in the form of spreadsheets, but I wanted to create an app that makes it easy to add/remove income, expenses, and funds without having to manually adjust cells on a spreadsheet.",
+            "approach": "Looked at a typical Zero Balance budget sheet and broken it down into its smallest functional unit, then designed a top-down layout that a user would be able to follow.",
+            "solution": "An application that accepts input for financial items (e.g. an expense or income) and calculates the balances for each category and the final balance.",
+            "results": "Peers were happy to find the site intuitive and helpful since many of them were students with financial struggles.",
+            "url": "https://www.public.asu.edu/~jppenalo/zerobalancejq/index.html",
+            "imgs": "zero"
         }
     ]
 }
