@@ -4,13 +4,14 @@ import Footer from './components/Footer';
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
-
+import ScrollToTop from './components/ScrollToTop';
 function App() {
 
 	return (
 		<>
 			<Router>
 				<Navigation />
+				<ScrollToTop />
 				<Switch>
 					<Route path="/about">
 						<About />

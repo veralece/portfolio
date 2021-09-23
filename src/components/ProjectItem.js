@@ -4,6 +4,7 @@ import zero1 from '../images/zero-bal-1.jpg';
 import zero2 from '../images/zero-bal-2.jpg';
 import todo1 from '../images/todo-1.jpg';
 import todo2 from '../images/todo-2.jpg';
+import logger from '../images/logger.jpg';
 function ProjectItem(props) {
     const { projectName, problem, approach, solution, results, url, imgs } = props;
     let imgComponent;
@@ -30,7 +31,9 @@ function ProjectItem(props) {
                 </>
             );
             break;
-
+        case 'logger':
+            imgComponent = <img alt="exercise logger app example" src={logger} />
+            break;
         default:
             imgComponent = "";
             break;

@@ -1,6 +1,24 @@
 {
     "projects": [
         {
+            "projectTitle": "Exercise Logger",
+            "problem": "Honestly, I needed something for a senior project; but really, I had some friends without a lot disposable income who wanted to use some sort of tracking application, so I wanted to create a simple one.",
+            "approach": "I looked towards other exercise applications and noted features, aesthetic, and other aspects I liked. When the application reached a testable state, I had users test the site to get feedback and bug reports.",
+            "solution": "Created an exercise tracker application with the following features: creating workouts, calculating effort, and viewing history.",
+            "results": " The application is functioning, but due to time constraints, it doesn't have a domain name or functioning back-end (yet), so profile and data across devices has yet to be implemented",
+            "url": "https://gray-glacier-0609e6b1e.azurestaticapps.net/home",
+            "imgs": "logger"
+        },
+        {
+            "projectTitle": "Zero Balance Calculator",
+            "problem": "Budgeting normally comes in the form of spreadsheets, but I wanted to create an app that makes it easy to add/remove income, expenses, and funds without having to manually adjust cells on a spreadsheet.",
+            "approach": "Looked at a typical Zero Balance budget sheet and broken it down into its smallest functional unit, then designed a top-down layout that a user would be able to follow.",
+            "solution": "An application that accepts input for financial items (e.g. an expense or income) and calculates the balances for each category and the final balance.",
+            "results": "Peers were happy to find the site intuitive and helpful since many of them were students with financial struggles.",
+            "url": "https://www.public.asu.edu/~jppenalo/zerobalancejq/index.html",
+            "imgs": "zero"
+        },
+        {
             "projectTitle": "To-do App",
             "problem": "I needed a task manager app that suited my needs without being too complex.",
             "approach": "I looked at other to-do apps and noted features that I liked as well as features I think they could have improve on.",
@@ -35,15 +53,6 @@
             "results": "You're on the site now! You tell me!",
             "url": "https://github.com/veralece/portfolio",
             "imgs": ""
-        },
-        {
-            "projectTitle": "Zero Balance Calculator",
-            "problem": "Budgeting normally comes in the form of spreadsheets, but I wanted to create an app that makes it easy to add/remove income, expenses, and funds without having to manually adjust cells on a spreadsheet.",
-            "approach": "Looked at a typical Zero Balance budget sheet and broken it down into its smallest functional unit, then designed a top-down layout that a user would be able to follow.",
-            "solution": "An application that accepts input for financial items (e.g. an expense or income) and calculates the balances for each category and the final balance.",
-            "results": "Peers were happy to find the site intuitive and helpful since many of them were students with financial struggles.",
-            "url": "https://www.public.asu.edu/~jppenalo/zerobalancejq/index.html",
-            "imgs": "zero"
         }
     ]
 }
