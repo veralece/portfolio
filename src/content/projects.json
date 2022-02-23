@@ -1,12 +1,12 @@
 {
     "projects": [
         {
-            "projectTitle": "Exercise Logger",
-            "problem": "Honestly, I needed something for a senior project; but really, I had some friends without a lot disposable income who wanted to use some sort of tracking application, so I wanted to create a simple one.",
+            "projectTitle": "Undou: Exercise Logging Application",
+            "problem": "Honestly, I needed something to do for a senior project; but really, I had some friends without a lot disposable income who wanted to use some sort of exercise tracking application, so I wanted to create a simple one.",
             "approach": "I looked towards other exercise applications and noted features, aesthetic, and other aspects I liked. When the application reached a testable state, I had users test the site to get feedback and bug reports.",
             "solution": "Created an exercise tracker application with the following features: creating workouts, calculating effort, and viewing history.",
-            "results": " The application is functioning, but due to time constraints, it doesn't have a domain name or functioning back-end (yet), so profile and data across devices has yet to be implemented",
-            "url": "https://gray-glacier-0609e6b1e.azurestaticapps.net/home",
+            "results": "The application is functioning with basic features, but due to financial constraints, the back-end isn't the snappiest. Next steps are to work on additional features, such as: creating workout templates, logging food, and implementing a social aspect as well.",
+            "url": "https://undou.app",
             "imgs": "logger"
         },
         {
