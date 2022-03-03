@@ -2,30 +2,12 @@
     "projects": [
         {
             "projectTitle": "Undou: Exercise Logging Application",
-            "problem": "Honestly, I needed something to do for a senior project; but really, I had some friends without a lot disposable income who wanted to use some sort of exercise tracking application, so I wanted to create a simple one.",
+            "problem": "I had some friends without a lot disposable income who wanted to use some sort of exercise tracking application, so I wanted to create a simple one.",
             "approach": "I looked towards other exercise applications and noted features, aesthetic, and other aspects I liked. When the application reached a testable state, I had users test the site to get feedback and bug reports.",
             "solution": "Created an exercise tracker application with the following features: creating workouts, calculating effort, and viewing history.",
             "results": "The application is functioning with basic features, but due to financial constraints, the back-end isn't the snappiest. Next steps are to work on additional features, such as: creating workout templates, logging food, and implementing a social aspect as well.",
             "url": "https://undou.app",
             "imgs": "logger"
-        },
-        {
-            "projectTitle": "Zero Balance Calculator",
-            "problem": "Budgeting normally comes in the form of spreadsheets, but I wanted to create an app that makes it easy to add/remove income, expenses, and funds without having to manually adjust cells on a spreadsheet.",
-            "approach": "Looked at a typical Zero Balance budget sheet and broken it down into its smallest functional unit, then designed a top-down layout that a user would be able to follow.",
-            "solution": "An application that accepts input for financial items (e.g. an expense or income) and calculates the balances for each category and the final balance.",
-            "results": "Peers were happy to find the site intuitive and helpful since many of them were students with financial struggles.",
-            "url": "https://www.public.asu.edu/~jppenalo/zerobalancejq/index.html",
-            "imgs": "zero"
-        },
-        {
-            "projectTitle": "To-do App",
-            "problem": "I needed a task manager app that suited my needs without being too complex.",
-            "approach": "I looked at other to-do apps and noted features that I liked as well as features I think they could have improve on.",
-            "solution": "Created to-do app with an emphasis on creating tasks as simply as possible.",
-            "results": " Main functionality of the app finished, though has not been published due to the backend needing its own server to run the database and I don’t have the resources for that right now.",
-            "url": "",
-            "imgs": "todo"
         },
         {
             "projectTitle": "JavaScript Array Tutorial",
@@ -37,13 +19,13 @@
             "imgs": "js"
         },
         {
-            "projectTitle": "Restaurant Website",
-            "problem": "Local business owner did not have a website for their restaurant.",
-            "approach": "Met with business owner to gather requirements, goals, and learn the history of the restaurant, primarily for the “About us” section. Then studied other restaurant sites to derive inspiration and note pitfalls to avoid. Created wireframes to go over the layout of the site and started plotting content for the main pages.",
-            "solution": "A website that provided information on main services, a menu page, a catering page to determine estimate of a catering.",
-            "results": "Website that displayed main functions of the restaurant, an online menu, and a catering calculator that displays an estimate. Business owner was pleased with the design and aesthetic choices, as well as the catering calculator since that helped cut down time they needed to spend talking to the customer.",
-            "url": "http://www.public.asu.edu/~jppenalo/TierraCaliente/index.html",
-            "imgs": "res"
+            "projectTitle": "Zero Balance Calculator",
+            "problem": "Budgeting normally comes in the form of spreadsheets, but I wanted to create an app that makes it easy to add/remove income, expenses, and funds without having to manually adjust cells on a spreadsheet.",
+            "approach": "Looked at a typical Zero Balance budget sheet and broken it down into its smallest functional unit, then designed a top-down layout that a user would be able to follow.",
+            "solution": "An application that accepts input for financial items (e.g. an expense or income) and calculates the balances for each category and the final balance.",
+            "results": "Peers were happy to find the site intuitive and helpful since many of them were students with financial struggles.",
+            "url": "https://www.public.asu.edu/~jppenalo/zerobalancejq/index.html",
+            "imgs": "zero"
         },
         {
             "projectTitle": "Portfolio Site",
