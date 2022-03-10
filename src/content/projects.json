@@ -2,7 +2,7 @@
     "projects": [
         {
             "projectTitle": "Undou: Exercise Logging Application",
-            "problem": "I had some friends without a lot disposable income who wanted to use some sort of exercise tracking application, so I wanted to create a simple one.",
+            "problem": "I had some friends without a lot of disposable income who wanted to use some sort of exercise tracking application, so I wanted to create a simple one for them.",
             "approach": "I looked towards other exercise applications and noted features, aesthetic, and other aspects I liked. When the application reached a testable state, I had users test the site to get feedback and bug reports.",
             "solution": "Created an exercise tracker application with the following features: creating workouts, calculating effort, and viewing history.",
             "results": "The application is functioning with basic features, but due to financial constraints, the back-end isn't the snappiest. Next steps are to work on additional features, such as: creating workout templates, logging food, and implementing a social aspect as well.",
