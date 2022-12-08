@@ -1,10 +1,11 @@
 {
     "experience": [
         {
-            "date": "Janurary 2021 - Currently",
-            "jobTitle": "Programmer Analyst Assistant",
-            "organization": "City of Tempe",
+            "date": "Janurary 2021 - October 2022",
+            "jobTitle": "Contracted Programmer",
+            "organization": "Knowledge Services",
             "duties": [
+                "Worked primarily for the City of Tempe",
                 "Maintaining several applications varying from small to large",
                 "Debugging applications",
                 "Writing detailed documentation",
@@ -17,8 +18,8 @@
             "organization": "Arizona Western College",
             "duties": [
                 "Scripting and automation through PowerShell",
-                "Configuration of Internal Web Applications",
-                "Deploying/managing ITSM System"
+                "Maintenance of internal web applications",
+                "Implemented and managed a new ITSM system"
             ]
         },
         {
