@@ -2,12 +2,6 @@
     "education": [
         {
             "college": "Arizona State University",
-            "degree": "MS, Graphic Information Technology",
-            "graduated": false,
-            "acquisitionDate": "May 2023"
-        },
-        {
-            "college": "Arizona State University",
             "degree": "BAS, Internet & Web Development",
             "graduated": true,
             "acquisitionDate": "August 2021"

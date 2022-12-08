@@ -1,4 +1,5 @@
 @import './normalize.css';
+
 @font-face {
     font-family: Raleway;
     src: url(./Raleway-VariableFont_wght.ttf);
@@ -11,11 +12,13 @@
 
 body {
     font-family: Raleway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: var(--biege);
 }
 
 main {
     background-color: #fff;
+    max-width: 1600px;
+    min-height: 80vh;
+    margin: 0 auto;
 }
 
 a, p {
@@ -29,11 +32,16 @@ a, a:visited {
 }
 
 footer {
-    margin: 2em 0;
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 2em 0;
     display: grid;
     grid-template-columns: repeat(3, 8em);
     place-items: center;
     place-content: center;
+    background-color: var(--biege);
 }
 
 footer a {
@@ -224,15 +232,18 @@ a, #nav-full .link:after {
     article[name=Projects] h1 {
         grid-column: span 2;
     }
+
     .grid {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2em;
         padding: 5vh 5vw;
     }
+
     .logo {
         width: 11em;
         height: 4em;
     }
+
     #nav-mobile {
         display: none;
     }
@@ -243,6 +254,7 @@ a, #nav-full .link:after {
         grid-template-columns: 1fr;
         padding: 5vh 5vw;
     }
+
     .logo {
         position: relative;
         top: .75em;
@@ -250,6 +262,7 @@ a, #nav-full .link:after {
         height: 5rem;
         width: 10rem;
     }
+
     #nav-full {
         display: none;
     }
