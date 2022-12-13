@@ -14,6 +14,7 @@ function Projects(props) {
                         solution={p.solution}
                         results={p.results}
                         url={p.url}
+                        techStack={p.techStack}
                     />
                 })}
             </article>

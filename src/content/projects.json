@@ -2,6 +2,7 @@
     "projects": [
         {
             "projectTitle": "Undou: Exercise Logging Application",
+            "techStack": [".NET Core Web API", "React/JavaScript", "HTML", "CSS", "SQL Server", "Entity Framework"],
             "problem": "I had some friends without a lot of disposable income who wanted to use some sort of exercise tracking application, so I wanted to create a simple one for them.",
             "approach": "I looked towards other exercise applications and noted features, aesthetic, and other aspects I liked. When the application reached a testable state, I had users test the site to get feedback and bug reports.",
             "solution": "Created an exercise tracker application with the following features: creating workouts, calculating effort, and viewing history.",
@@ -10,7 +11,18 @@
             "imgs": "logger"
         },
         {
+            "projectTitle": "Zero Balance Calculator",
+            "techStack": ["Vue 3/JavaScript", "TypeScript", "HTML", "CSS"],
+            "problem": "Budgeting normally comes in the form of spreadsheets, but I wanted to create an app that makes it easy to add/remove income, expenses, and funds without having to manually adjust cells on a spreadsheet.",
+            "approach": "Looked at a typical Zero Balance budget sheet and broken it down into its smallest functional unit, then designed a top-down layout that a user would be able to follow.",
+            "solution": "An application that accepts input for financial items (e.g. an expense or income) and calculates the balances for each category and the final balance.",
+            "results": "Peers were happy to find the site intuitive and helpful since many of them were students with financial struggles.",
+            "url": "https://blue-stone-06da0c010.2.azurestaticapps.net/",
+            "imgs": "zero"
+        },
+        {
             "projectTitle": "JavaScript Array Tutorial",
+            "techStack": ["JavaScript", "HTML", "CSS"],
             "problem": "Tutorials usually don’t provide supplemental information to help users understand coding syntax, convention, or terminology.",
             "approach": "Visited other tutorial websites to determine what supplemental information was missing from the functions and wrote down the content I wanted to supply for the tutorial website.",
             "solution": "Created tutorial for JavaScript arrays that included a text area box to interpret and execute JavaScript on the webpage, examples of JavaScript array functions with buttons to automatically paste the code into the interpreter so that users can run the example for themselves, and a reference to help new learners understand the syntax of the JavaScript functions and terminology.",
@@ -19,16 +31,8 @@
             "imgs": "js"
         },
         {
-            "projectTitle": "Zero Balance Calculator",
-            "problem": "Budgeting normally comes in the form of spreadsheets, but I wanted to create an app that makes it easy to add/remove income, expenses, and funds without having to manually adjust cells on a spreadsheet.",
-            "approach": "Looked at a typical Zero Balance budget sheet and broken it down into its smallest functional unit, then designed a top-down layout that a user would be able to follow.",
-            "solution": "An application that accepts input for financial items (e.g. an expense or income) and calculates the balances for each category and the final balance.",
-            "results": "Peers were happy to find the site intuitive and helpful since many of them were students with financial struggles.",
-            "url": "https://nice-field-09f933f1e.2.azurestaticapps.net/",
-            "imgs": "zero"
-        },
-        {
             "projectTitle": "Portfolio Site",
+            "techStack": ["React/JavaScript", "HTML", "CSS"],
             "problem": "I needed a portfolio site to inform others about who I am, and showcase my projects and my resume.",
             "approach": "I initially created a document outlining the content I wanted to display. Afterwards, I digitally sketched what the website would look like on mobile and desktop, which sort of doubled up as a sketch and a wireframe. Then I created mockups of the site utilizing the content in the document I mentioned earlier.",
             "solution": "Utilized GitHub as repository and created site using React. I used Azure Static Web App to host the site and used Google Domains to customize the domain of this site.",

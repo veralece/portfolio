@@ -6,7 +6,7 @@ import todo1 from '../images/todo-1.jpg';
 import todo2 from '../images/todo-2.jpg';
 import logger from '../images/logger.jpg';
 function ProjectItem(props) {
-    const { projectName, problem, approach, solution, results, url, imgs } = props;
+    const { projectName, problem, approach, solution, results, url, imgs, techStack } = props;
     let imgComponent;
     switch (imgs) {
         case 'js':
@@ -41,6 +41,12 @@ function ProjectItem(props) {
     return (
         <section className="container shadow">
             {url ? <h2><a href={url}>{projectName}</a></h2> : <h2>{projectName}</h2>}
+            <h3>Tech Stack</h3>
+            <ul>
+                {techStack.map(i =>
+                    <li>{i}</li>)
+                }
+            </ul>
             <p><strong>Problem: </strong>{problem}</p>
             <p><strong>Approach: </strong>{approach}</p>
             <p><strong>Solution: </strong>{solution}</p>
