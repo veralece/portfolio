@@ -11,6 +11,16 @@
             "imgs": "logger"
         },
         {
+            "projectTitle": "Tierra Caliente Restaurant",
+            "techStack": [".NET Core Web API", "React/JavaScript", "HTML", "CSS"],
+            "problem": "Owner of Tierra Caliente needed an updated website for their restaurant to support their new business processes.",
+            "approach": "Reviewed old site and current business processes with stakeholders to determine direction of website and internal processes.",
+            "solution": "Organization of menu and processes to make the restaurant operate more consistently, and a new site was created to facilitate catering request and online ordering.",
+            "results": "Business owner and stakeholders were pleased with the new solution, and look forward to growing their business with the new technologies and processes.",
+            "url": "https://www.tierracalientecatering.com",
+            "imgs": "tierra-caliente"
+        },
+        {
             "projectTitle": "Zero Balance Calculator",
             "techStack": ["Vue 3/JavaScript", "TypeScript", "HTML", "CSS"],
             "problem": "Budgeting normally comes in the form of spreadsheets, but I wanted to create an app that makes it easy to add/remove income, expenses, and funds without having to manually adjust cells on a spreadsheet.",
@@ -35,7 +45,7 @@
             "techStack": ["React/JavaScript", "HTML", "CSS"],
             "problem": "I needed a portfolio site to inform others about who I am, and showcase my projects and my resume.",
             "approach": "I initially created a document outlining the content I wanted to display. Afterwards, I digitally sketched what the website would look like on mobile and desktop, which sort of doubled up as a sketch and a wireframe. Then I created mockups of the site utilizing the content in the document I mentioned earlier.",
-            "solution": "Utilized GitHub as repository and created site using React. I used Azure Static Web App to host the site and used Google Domains to customize the domain of this site.",
+            "solution": "Utilized GitHub as repository and created site using React. I used Azure to host the site and Google Domains to customize the domain of this site.",
             "results": "You're on the site now! You tell me!",
             "url": "https://github.com/veralece/portfolio",
             "imgs": ""
